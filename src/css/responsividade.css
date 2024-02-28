@@ -1,0 +1,96 @@
+@media (max-width: 1158px){
+    .filmes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 90px;
+    }
+}
+
+@media (max-width: 996px){
+    .tipo_de_filme.selecionado{
+            margin: 0px 80px 0px 80px;
+         }
+
+    .download{
+            margin: 20px;
+        }
+
+        .video{
+            margin: 0px 20px 20px 20px;
+        }
+    }
+    
+
+@media (max-width: 1025px){
+    .tipo_de_filme.selecionado{
+    margin: 0px 20px 0px 20px;
+    }
+
+    .download{
+        margin: 20px;
+    }
+
+    .produtos_vendas{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+
+    .produto_one{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 813px){
+    .inputBox{
+        width: 50%;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .input-group.label{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+
+    .seta_filme{
+        width: 20%;
+    }
+
+    .btn.seta_filme{
+        padding: 0.2%;
+    }
+
+    .conteudo_filme{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:30px;
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .produtos_vendas h5{
+        font-size: 14px;
+    }
+
+    .contato h5{
+        font-size: 10px;
+    }
+
+    .imagens_filme{
+        margin-left: 0px;
+    }
+
+    iframe{
+        width: 300px;
+    }
+}

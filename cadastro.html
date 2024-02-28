@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game on</title>
+    <link rel="stylesheet" href="./src/css/style_cadastro.css">
+    <link rel="stylesheet" href="./src/css/responsividade_cadastro.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./index_animacao.html">
+
+    <link rel="shortcut icon" href="./src/imagens/icons8-gaming-geek-50.png">
+</head>
+
+<body>
+    <main>
+        <div class="cabecario">
+            <div class="separacao_cabecario">
+                <li>
+                    <button class="botao home"><a href="index.html">
+                            <h3>HOME</h3>
+                        </a></button>
+                </li>
+
+                <li>
+                    <button class="botao produtos_texto_cabecario"><a href="produtos.html">
+                            <h3>PRODUTOS</h3>
+                        </a></button>
+                </li>
+
+                <li>
+                    <button class="botao produtos_texto_cabecario"><a href="cadastro.html">
+                            <h3>CADASTRO</h3>
+                        </a></button>
+                </li>
+
+                <li>
+                    <button class="botao produtos_texto_cabecario"><a href="login.html">
+                        <h3>LOGIN</h3>
+                    </a></button>
+                </li>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="./src/imagens/Game_On__1_-removebg-preview.png">
+        </div>
+
+        <div class="botoes_genero">
+            <button class="seta_filme selecionado"><a href="index.html">
+                    <h4>GEEK</h4>
+                </a></button>
+
+            <button class="seta_filme"><a href="index_animacao.html">
+                    <h4>ANIMAÇÃO</h4>
+                </a></button>
+
+            <button class="seta_filme"><a href="index_anime.html">
+                    <h4>ANIMES</h4>
+                </a></button>
+
+        </div>
+
+    </main>
+
+    <section>
+        <div class="container">
+            
+            
+            <div class="form-image">
+                
+                <button class="btn vingadores selecionado">
+                    
+                    <img src="./src/imagens/basico.jpg" alt="Descrição da Imagem" class="imagem-clicavel">
+                    
+                </button>
+                <button class="btn vingadores selecionado">
+                    <img src="./src/imagens/premium.jpeg" alt="Descrição da Imagem" class="imagem-clicavel2">
+                </button>
+            
+                
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="index.html">Entrar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
+                                required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome"
+                                required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="firstname">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
+                                required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Confirme sua senha</label>
+                            <input id="Confirmpassword" type="password" name="Confirmpassword"
+                                placeholder="Digite sua senha" required>
+                            
+
+                        </div>
+
+
+                        <div class="gender-inputs">
+                            <div class="gender-title">
+                                <h6>Gênero</h6>
+                            </div>
+    
+                            <div class="gender-group">
+                                <div class="gender-input">
+                                    <input type="radio" id="female" name="gender">
+                                    <label for="female">Feminino</label>
+                                </div>
+    
+                                <div class="gender-input">
+                                    <input type="radio" id="male" name="gender">
+                                    <label for="male">Masculino</label>
+                                </div>
+    
+                                <div class="gender-input">
+                                    <input type="radio" id="others" name="gender">
+                                    <label for="outhers">Outros</label>
+                                </div>
+    
+                                <div class="gender-input">
+                                    <input type="radio" id="none" name="gender">
+                                    <label for="none">Prefiro não dizer</label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="continue-button">
+                            <button><a href="#">Continuar</a></button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container_cartao">
+
+        <div class="card-container">
+    
+            <div class="front">
+                <div class="image">
+                    <img src="./src/imagens/chip.png" alt="">
+                    <img src="./src/imagens/visa.png" alt="">
+                </div>
+
+                <div class="card-number-box">################</div>
+                <div class="flexbox">
+                    <div class="box">
+                        <span>card holder</span>
+                        <div class="card-holder-name">full name</div>
+                    </div>
+                    <div class="box">
+                        <span>expires</span>
+                        <div class="expiration">
+                            <span class="exp-month">mm</span>
+                            <span class="exp-year">yy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="back">
+                <div class="stripe"></div>
+                <div class="box">
+                    <span>cvv</span>
+                    <div class="cvv-box"></div>
+                    <img src="./src/imagens/visa.png" alt="">
+                </div>
+            </div>
+    
+        </div>
+    
+        <form action="">
+            <div class="inputBox">
+                <span>card number</span>
+                <input type="text" maxlength="16" class="card-number-input">
+            </div>
+            <div class="inputBox">
+                <span>card holder</span>
+                <input type="text" class="card-holder-input">
+            </div>
+            <div class="flexbox">
+                <div class="inputBox">
+                    <span>expiration mm</span>
+                    <select name="" id="" class="month-input">
+                        <option value="month" selected disabled>month</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+
+                <div class="inputBox">
+                    <span>expiration yy</span>
+                    <select name="" id="" class="year-input">
+                        <option value="year" selected disabled>year</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+                </div>
+
+                <div class="inputBox">
+                    <span>cvv</span>
+                    <input type="text" maxlength="4" class="cvv-input">
+                </div>
+            </div>
+
+            <input type="submit" value="submit" class="submit-btn">
+        </form>
+    
+    </div>
+
+    <footer>
+        <div class="separar">
+            <div class="contato">
+                <img src="./src/imagens/icons8-email-100.png" alt="ícone e-mail">
+                <h5>GAMEON@GMAIL.COM</h5>
+            </div>
+
+            <div class="contato">
+                <img src="./src/imagens/icons8-instagram-48.png" alt="ícone instagram">
+                <h5>GAMEON</h5>
+            </div>
+            <div class="contato" alt="Número de telefone">
+                <img src="./src/imagens/icons8-mobile-48.png">
+                <h5>(11)40028922</h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/script_cartao.js"></script>
+    
+</body>
+
+</html>
